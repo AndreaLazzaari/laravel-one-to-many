@@ -20,7 +20,8 @@ class ProjectSeeder extends Seeder
                 'richiesta' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa atque quidem totam doloremque necessitatibus excepturi! At est minima unde eligendi quod eaque non aliquam, maxime natus cupiditate deleniti fugit.
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
-                'data' => '2023-07-12'
+                'data' => '2023-07-12',
+                'type' => 'front-end'
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -28,7 +29,8 @@ class ProjectSeeder extends Seeder
                 'richiesta' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa atque quidem totam doloremque necessitatibus excepturi! At est minima unde eligendi quod eaque non aliquam, maxime natus cupiditate deleniti fugit.
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
-                'data' => '2023-05-28'
+                'data' => '2023-05-28',
+                'type' => 'back-end'
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -36,7 +38,8 @@ class ProjectSeeder extends Seeder
                 'richiesta' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa atque quidem totam doloremque necessitatibus excepturi! At est minima unde eligendi quod eaque non aliquam, maxime natus cupiditate deleniti fugit.
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
-                'data' => '2022-11-15'
+                'data' => '2022-11-15',
+                'type' => 'full-stack'
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -44,7 +47,8 @@ class ProjectSeeder extends Seeder
                 'richiesta' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa atque quidem totam doloremque necessitatibus excepturi! At est minima unde eligendi quod eaque non aliquam, maxime natus cupiditate deleniti fugit.
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
-                'data' => '2024-01-05'
+                'data' => '2024-01-05',
+                'type' => 'front-end'
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -52,7 +56,8 @@ class ProjectSeeder extends Seeder
                 'richiesta' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa atque quidem totam doloremque necessitatibus excepturi! At est minima unde eligendi quod eaque non aliquam, maxime natus cupiditate deleniti fugit.
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
-                'data' => '2022-09-20'
+                'data' => '2022-09-20',
+                'type' => 'full-stack'
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -60,7 +65,8 @@ class ProjectSeeder extends Seeder
                 'richiesta' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa atque quidem totam doloremque necessitatibus excepturi! At est minima unde eligendi quod eaque non aliquam, maxime natus cupiditate deleniti fugit.
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
-                'data' => '2023-07-12'
+                'data' => '2023-07-12',
+                'type' => 'front-end'
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -68,7 +74,8 @@ class ProjectSeeder extends Seeder
                 'richiesta' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa atque quidem totam doloremque necessitatibus excepturi! At est minima unde eligendi quod eaque non aliquam, maxime natus cupiditate deleniti fugit.
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
-                'data' => '2023-05-28'
+                'data' => '2023-05-28',
+                'type' => 'back-end'
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -76,7 +83,8 @@ class ProjectSeeder extends Seeder
                 'richiesta' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa atque quidem totam doloremque necessitatibus excepturi! At est minima unde eligendi quod eaque non aliquam, maxime natus cupiditate deleniti fugit.
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
-                'data' => '2022-11-15'
+                'data' => '2022-11-15',
+                'type' => 'back-end'
             ),
      
         );
