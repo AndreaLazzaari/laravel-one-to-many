@@ -22,6 +22,11 @@
                 </div>
 
                 <div class="mb-3 input-group">
+                    <label for="type" class="input-group-text">Type:</label>
+                    <input class="form-control" type="text" name="type" id="type" value="{{ old('type') }}">
+                </div>
+
+                <div class="mb-3 input-group">
                     <label for="date" class="input-group-text">Date:</label>
                     <input class="form-control" type="date" name="date" id="date" value="{{ old('date') }}">
                 </div>

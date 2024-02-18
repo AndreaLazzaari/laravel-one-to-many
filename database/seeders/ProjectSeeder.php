@@ -95,6 +95,7 @@ class ProjectSeeder extends Seeder
             $newProject->request = $project['richiesta'];
             $newProject->date = $project['data'];
             $newProject->author = $project['autore'];
+            $newProject->type = $project['type'];
             $newProject->save();
         }
 

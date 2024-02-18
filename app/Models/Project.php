@@ -5,6 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use function PHPSTORM_META\type;
+
 class Project extends Model
 {
     use HasFactory;
@@ -13,7 +15,12 @@ class Project extends Model
         'title',
         'request',
         'date',
-        'author'
+        'author',
+        // 'type'
 
     ];
+
+    public function type(){
+        return $this->belongsTo(Type::class);
+    }
 }

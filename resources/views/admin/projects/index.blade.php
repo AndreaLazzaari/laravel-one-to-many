@@ -17,6 +17,7 @@
                         <th scope="col">ID</th>
                         <th scope="col">Title</th>
                         <th scope="col">Author</th>
+                        <th scope="col">Type</th>
                         <th scope="col">Date</th>
                         <th scope="col">Content</th>
                         <th scope="col">Actions</th>
@@ -35,6 +36,9 @@
                             </td>
                             <td>
                                 {{ $project->author }}
+                            </td>
+                            <td>
+                                {{ $project->type }}
                             </td>
                             <td>
                                 {{ $project->date }}

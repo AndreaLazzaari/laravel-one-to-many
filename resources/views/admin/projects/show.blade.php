@@ -19,6 +19,9 @@
                 {{ $project->author }}
             </p>
             <p>
+                {{ $project->type }}
+            </p>
+            <p>
                 {{ $project->date }}
             </p>
             <div class="p-5">
