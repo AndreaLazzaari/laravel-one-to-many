@@ -16,7 +16,7 @@ class Project extends Model
         'request',
         'date',
         'author',
-        // 'type'
+        'type_id'
 
     ];
 

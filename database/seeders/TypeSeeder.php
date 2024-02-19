@@ -14,19 +14,24 @@ class TypeSeeder extends Seeder
      */
     public function run(Faker $faker): void
     {
-        // $types=[
-        //     'back-end',
-        //     'front-end',
-        //     'full-stack'
-        // ];
+      $types=[
+        'back-end',
+        'front-end',
+        'full-stack'
+    ];
 
-      for ($i=0; $i < 3; $i++) { 
-        $newType = new Type();
-        $newType->type = $faker->unique()->name();
-        $newType->save();
-      }
+  foreach ($types as $type) {
+  $newType = New Type();
+  $newType->type = $type('type');
+  $newType->save();
+}
+
+      // for ($i=0; $i < 3; $i++) { 
+      //   $newType = new Type();
+      //   $newType->type = $faker->unique()->name();
+      //   $newType->save();
+      // }
 
 
     }
 }
-
