@@ -21,7 +21,7 @@ class ProjectSeeder extends Seeder
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
                 'data' => '2023-07-12',
-                // 'type' => 'front-end'
+                'type_id' => 2
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -30,7 +30,7 @@ class ProjectSeeder extends Seeder
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
                 'data' => '2023-05-28',
-                // 'type' => 'back-end'
+                'type_id' => 1
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -39,7 +39,7 @@ class ProjectSeeder extends Seeder
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
                 'data' => '2022-11-15',
-                // 'type' => 'full-stack'
+                'type_id' => 3
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -48,7 +48,7 @@ class ProjectSeeder extends Seeder
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
                 'data' => '2024-01-05',
-                // 'type' => 'front-end'
+                'type_id' => 2
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -57,7 +57,7 @@ class ProjectSeeder extends Seeder
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
                 'data' => '2022-09-20',
-                // 'type' => 'full-stack'
+                'type_id' => 3
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -66,7 +66,7 @@ class ProjectSeeder extends Seeder
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
                 'data' => '2023-07-12',
-                // 'type' => 'front-end'
+                'type_id' => 2
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -75,7 +75,7 @@ class ProjectSeeder extends Seeder
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
                 'data' => '2023-05-28',
-                // 'type' => 'back-end'
+                'type_id' => 3
             ),
             array(
                 'autore' => 'Andrea Lazzari',
@@ -84,7 +84,7 @@ class ProjectSeeder extends Seeder
                                 Suscipit minima, quos voluptatum maxime illo nam sint perspiciatis explicabo asperiores nobis fugiat, maiores labore reprehenderit praesentium, a ut inventore. Laudantium possimus nihil similique exercitationem illo, nam ut sapiente hic.
                                 Numquam debitis quibusdam laboriosam',
                 'data' => '2022-11-15',
-                // 'type' => 'back-end'
+                'type_id' => 1
             ),
      
         );
@@ -95,6 +95,7 @@ class ProjectSeeder extends Seeder
             $newProject->request = $project['richiesta'];
             $newProject->date = $project['data'];
             $newProject->author = $project['autore'];
+            $newProject->type_id = $project['type_id'];
             $newProject->save();
         }
 
