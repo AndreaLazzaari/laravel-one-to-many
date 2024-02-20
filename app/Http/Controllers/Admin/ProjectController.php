@@ -14,7 +14,7 @@ class ProjectController extends Controller
         'author' => ['required', 'min:3', 'string', 'max:40'],
         'request' => ['min:20', 'required'],
         'date' => ['date', 'required'],
-        'type_id' => ['required', 'string']
+        'type_id' => ['required',]
     ];
 
     /**

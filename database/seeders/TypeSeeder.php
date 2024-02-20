@@ -12,17 +12,24 @@ class TypeSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    public function run(Faker $faker): void
+    public function run(): void
     {
-      $types=[
-        'back-end',
-        'front-end',
-        'full-stack'
-    ];
+      $types= array(
+        array(
+          'type'=> 'back-end'
+        ),
+        array(
+          'type'=> 'front-end'
+        ),
+        array(
+          'type'=> 'full-stack'
+        ),
+
+      );
 
   foreach ($types as $type) {
   $newType = New Type();
-  $newType->type = $type('type');
+  $newType->type = $type['type'];
   $newType->save();
 }
 
@@ -31,6 +38,12 @@ class TypeSeeder extends Seeder
       //   $newType->type = $faker->unique()->name();
       //   $newType->save();
       // }
+
+    //   $types=[
+    //     'back-end',
+    //     'front-end',
+    //     'full-stack'
+    // ];
 
 
     }
